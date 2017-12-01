@@ -1,0 +1,13 @@
+var fact = text("PLACEHOLDER");
+
+%% get the fact and put it in a tweet %%
+get(fact) {
+  location: ipGrab(192.00.12.1);
+}
+put(fact) {
+  location: tweet {
+    twitterAccount = "ThingFacts";
+    interval = ~24.00.00;
+  }
+  style: 0;
+}
